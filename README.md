@@ -4,7 +4,7 @@ This initial Maven code structure was created using the **maven-archetype-quicks
 mvn archetype:generate -DgroupId=com.example.helloworld -DartifactId=dropwizard-helloworld -DarchetypeArtifactId=maven-archetype-quickstart -DinteractiveMode=false
 ```
 
-The code in this repository roughly follows the [Dropwizard example](http://www.dropwizard.io/0.9.2/docs/getting-started.html) code on-line.
+The code in this repository roughly follows the [Dropwizard example](https://www.dropwizard.io/en/latest/getting-started.html) code on-line.
 
 **Dropwizard** is an example of an embedded container application server. In traditonal **Application Server** contexts, you start your server and deploy your compiled application into it. In an **embedded container** context, you embed a lightweight container, in this case **Jetty** with your application.
 
