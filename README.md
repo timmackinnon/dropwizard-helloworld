@@ -12,8 +12,8 @@ The code in this repository roughly follows the [Dropwizard example](http://www.
 
 A quick overview of the code:
 
-* *Configuration Class* - *HelloWorldConfiguration* is a subclass of *Configuration* which specifies environment-specific parameters. These parameters are housed in a **YAML** configuaration file called *hello-world.yaml*. *Jackson* does the magic to map contents from the *yaml* file back and forth into the Java world.
-* *Application Class* - *HelloWorldApplication* is a sublcass of *Application* (the core of the Dropwizard application) and is parametrized with *HelloWorldConfiguaration*.
+* *Configuration Class* - *HelloWorldConfiguration* is a subclass of *Configuration* which specifies environment-specific parameters. These parameters are housed in a **YAML** configuration file called *hello-world.yaml*. *Jackson* does the magic to map contents from the *yaml* file back and forth into the Java world.
+* *Application Class* - *HelloWorldApplication* is a sublcass of *Application* (the core of the Dropwizard application) and is parametrized with *HelloWorldConfiguration*.
 * *Representation Class* -  in short, a *JSON* representation needs to conform to [RFC 1149](http://www.ietf.org/rfc/rfc1149.txt) which specifies that things should look like the following. *Saying* provides the representation of this response.
 ```
 {
